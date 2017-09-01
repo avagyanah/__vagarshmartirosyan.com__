@@ -1,0 +1,54 @@
+#first-block, #second-block, #third-block, #fourth-block {
+  text-align:center;
+  padding:1rem 0;
+}
+#singerName {
+  font-family: 'Petit Formal Script', cursive;
+}
+#voiceType {
+  font-family: 'Petit Formal Script', cursive;
+}
+.repertoireTitle {
+  font-size: 15px;
+  font-weight: 700;
+}
+.videoContainer {
+  padding: 50px 0;
+}
+.videoContainer >* {
+  margin-bottom: 50px;
+}
+#carousel {
+  text-align:center;
+  background:#e5e5e5;
+}
+#first-block {
+  background:#fff;
+}
+#second-block {
+  background:#e5e5e5;
+}
+#third-block {
+  background:#fff;
+}
+#fourth-block {
+  background:#e5e5e5;
+}
+footer {
+  background:#fff;
+  padding:3.5rem 0;
+}
+@media screen and (max-width: 768px) {
+  .right {
+    float:none;
+  }
+}
+.bioText {
+  -webkit-user-select: none; /* Safari, iOS, and Android */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+/*form*/

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/response.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+</head>
+<body class="size-1140">
+<!-- TOP NAV WITH LOGO -->
+<header>
+    <nav>
+        <div class="line">
+            <div class="top-nav s-12 l-10 right">
+                <ul class="right">
+                    <li class="active-item">
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="pages/bio.html">BIO</a>
+                    </li>
+                    <li>
+                        <a href="pages/repertoire.html">REPERTOIRE</a>
+                    </li>
+                    <li>
+                        <a href="pages/videos.html">VIDEOS</a>
+                    </li>
+                    <li>
+                        <a href="pages/audios.html">AUDIOS</a>
+                    </li>
+                    <li>
+                        <a href="pages/contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<section>
+    <!-- CAROUSEL -->
+    <div id="carousel">
+        <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="assets/images/vaga1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/images/vaga2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/images/vaga3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/images/vaga4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/images/vaga5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/images/vaga6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/images/vaga7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/images/vaga8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/images/vaga9.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="second-block">
+        <div class="line">
+            <!--<div class="margin-bottom">-->
+            <div class="margin">
+                <article class="s-12 m-12 l-8 center">
+                    <h1 id="singerName">Vagarsh Martirosyan</h1>
+                    <h3 id="voiceType">Bass-Baritone</h3>
+                </article>
+            </div>
+            <!--</div>-->
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="js/response.js"></script>
+<script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $("#owl-demo").owlCarousel({
+            navigation : true,
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            autoPlay : true,
+            singleItem:true
+        });
+        $("#owl-demo2").owlCarousel({
+            slideSpeed : 300,
+            autoPlay : true,
+            navigation : true,
+            pagination : true,
+            singleItem:true
+        });
+    });
+</script>
+</body>
+</html>
